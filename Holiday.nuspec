@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Holiday.Net</id>
+    <version>1.0.1</version>
+    <authors>Dave Scriven</authors>
+    <owners>Dave Scriven</owners>
+    <language>en-AU</language>
+    <projectUrl>https://github.com/scriv/Holiday.Net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <title>Holiday.NET</title>
+    <description>A portable .NET Moore's Cloud Holiday client library usable by .NET, Silverlight, Windows Store apps, and Windows Phone 8.</description>
+    <releaseNotes>Initial version.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>holiday rest client portable</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" />
+      <dependency id="Microsoft.Bcl.Async" />
+      <dependency id="Microsoft.Net.Http" />
+    </dependencies>
+  </metadata>
+</package>
