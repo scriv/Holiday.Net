@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Holiday.Net</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <authors>Dave Scriven</authors>
     <owners>Dave Scriven</owners>
     <language>en-AU</language>
@@ -15,7 +15,6 @@
     <tags>holiday rest client portable</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" />
-      <dependency id="Microsoft.Bcl.Async" />
       <dependency id="Microsoft.Net.Http" />
     </dependencies>
   </metadata>
