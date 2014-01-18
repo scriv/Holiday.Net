@@ -33,8 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Colours.cs" />
     <Compile Include="ColourTranslator.cs" />
     <Compile Include="Colour.cs" />
+    <Compile Include="HolidayExtensions.cs" />
     <Compile Include="RestHolidayClient.cs" />
     <Compile Include="IHolidayClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

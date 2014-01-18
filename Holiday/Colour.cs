@@ -4,7 +4,7 @@ namespace Holiday
     /// <summary>
     /// Represents an RGB (Red, Green and Blue) colour.
     /// </summary>
-    public struct Colour
+    public partial struct Colour
     {
         /// <summary>
         /// Represents a null colour.
@@ -39,21 +39,6 @@ namespace Holiday
         /// Gets the blue component of the colour.
         /// </summary>
         public byte B { get; private set; }
-
-        /// <summary>
-        /// Gets the colour white.
-        /// </summary>
-        public static Colour White { get { return new Colour(255, 255, 255); } }
-
-        /// <summary>
-        /// Gets the colour black.
-        /// </summary>
-        public static Colour Black { get { return new Colour(0, 0, 0); } }
-
-        /// <summary>
-        /// Gets the colour red.
-        /// </summary>
-        public static Colour Red { get { return new Colour(255, 0, 0); } }
 
         /// <summary>
         /// Returns a hash code for this instance.

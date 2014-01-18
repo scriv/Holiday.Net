@@ -37,7 +37,7 @@ namespace Holiday
         /// <exception cref="System.ArgumentOutOfRangeException"><paramref name="lights"/> must contain 50 colour values.</exception>
         public Task SetLights(IEnumerable<Colour> lights)
         {
-            if (lights == null || lights.Count() != 50)
+            if (lights == null || lights.Count() != HolidayExtensions.NumberOfLights)
             {
                 throw new ArgumentOutOfRangeException("lights", "lights must contain 50 colour values.");
             }

@@ -1,7 +1,7 @@
-Holiday.NET
+Holiday.Net
 ===========
 
-A portable .NET [Moore's Cloud Holiday](http://www.moorescloud.com/) client library usable by .NET, Silverlight, Windows Store apps, and Windows Phone 8.
+A portable .NET [Moore's Cloud Holiday](http://www.moorescloud.com/) client library usable by .NET 4.5, Silverlight, Windows Store apps, and Windows Phone 8.
 
 Can be installed from [Nuget](https://www.nuget.org/packages/Holiday.Net/): `PM> Install-Package Holiday.Net`
 

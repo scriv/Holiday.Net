@@ -2,15 +2,15 @@
 <package >
   <metadata>
     <id>Holiday.Net</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <authors>Dave Scriven</authors>
     <owners>Dave Scriven</owners>
     <language>en-AU</language>
     <projectUrl>https://github.com/scriv/Holiday.Net</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <title>Holiday.NET</title>
+    <title>Holiday.Net</title>
     <description>A portable .NET Moore's Cloud Holiday client library usable by .NET, Silverlight, Windows Store apps, and Windows Phone 8.</description>
-    <releaseNotes>Initial version.</releaseNotes>
+    <releaseNotes>Added standard web colours to Colour structure.</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>holiday rest client portable</tags>
     <dependencies>
