@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Holiday.Net</id>
-    <version>1.0.3</version>
+    <version>1.0.6</version>
     <authors>Dave Scriven</authors>
     <owners>Dave Scriven</owners>
     <language>en-AU</language>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <title>Holiday.Net</title>
     <description>A portable .NET Moore's Cloud Holiday client library usable by .NET, Silverlight, Windows Store apps, and Windows Phone 8.</description>
-    <releaseNotes>Added standard web colours to Colour structure.</releaseNotes>
+    <releaseNotes>Fixed a Nuget package missing assembly bug.</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>holiday rest client portable</tags>
     <dependencies>

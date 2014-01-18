@@ -23,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Holiday.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Holiday.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Colours.cs" />
@@ -85,9 +87,13 @@
 mkdir "$(TargetDir)package\lib"
 mkdir "$(TargetDir)package\lib\portable-net45+wp80+win8\"
 
+copy "$(TargetPath)" "$(TargetDir)package\lib\portable-net45+wp80+win8\"
+copy "$(TargetDir)Holiday.xml" "$(TargetDir)package\lib\portable-net45+wp80+win8\"
 copy "$(ProjectDir)..\Holiday.nuspec" "$(TargetDir)package\"
 
 c:\projects\nuget pack "$(TargetDir)package\Holiday.nuspec"
+
+
 </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
