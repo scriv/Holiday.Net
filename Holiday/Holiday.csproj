@@ -43,7 +43,6 @@
     <Compile Include="RestHolidayClient.cs" />
     <Compile Include="IHolidayClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TaskExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Threading.Tasks">

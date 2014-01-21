@@ -34,6 +34,7 @@ namespace Holiday
             }
 
             this.host = host;
+            this.httpClient.Timeout = this.timeout;
         }
 
         /// <summary>
@@ -76,10 +77,10 @@ namespace Holiday
             if (method == "PUT")
             {
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
-                return this.httpClient.PutAsync(requestUrl, content).Timeout(this.timeout);
+                return this.httpClient.PutAsync(requestUrl, content);
             }
 
-            return this.httpClient.GetAsync(requestUrl).Timeout(this.timeout);
+            return this.httpClient.GetAsync(requestUrl);
         }
 
         /// <summary>
